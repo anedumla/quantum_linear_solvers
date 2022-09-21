@@ -17,15 +17,11 @@ from scipy.linalg import expm
 import numpy as np
 from ddt import ddt, idata, unpack
 from qiskit import BasicAer, QuantumCircuit
-from quantum_linear_solvers.linear_solvers.hhl import HHL
-from quantum_linear_solvers.linear_solvers.matrices.tridiagonal_toeplitz import (
-    TridiagonalToeplitz,
-)
-from quantum_linear_solvers.linear_solvers.matrices.numpy_matrix import NumPyMatrix
-from quantum_linear_solvers.linear_solvers.observables.absolute_average import AbsoluteAverage
-from quantum_linear_solvers.linear_solvers.observables.matrix_functional import (
-    MatrixFunctional,
-)
+from linear_solvers.hhl import HHL
+from linear_solvers.matrices.tridiagonal_toeplitz import TridiagonalToeplitz
+from linear_solvers.matrices.numpy_matrix import NumPyMatrix
+from linear_solvers.observables.absolute_average import AbsoluteAverage
+from linear_solvers.observables.matrix_functional import MatrixFunctional
 from qiskit.circuit.library.arithmetic.exact_reciprocal import ExactReciprocal
 from qiskit.quantum_info import Operator, partial_trace
 from qiskit.opflow import I, Z, StateFn
