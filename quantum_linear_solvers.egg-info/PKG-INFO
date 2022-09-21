@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: quantum-linear-solvers
+Version: 0.1.dev1+g17fb9c0
+Summary: Quantum linear solvers package
+License-File: LICENSE
+
+# quantum_linear_solvers
+Contains classical and quantum algorithms to solve systems of linear equations such as the HHL algorithm.
