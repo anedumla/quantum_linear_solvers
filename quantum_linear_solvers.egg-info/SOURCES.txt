@@ -5,6 +5,8 @@ requirements-dev.txt
 requirements.txt
 setup.py
 dist/quantum_linear_solvers-0.1.dev1+g17fb9c0.tar.gz
+dist/quantum_linear_solvers-0.1.dev2+g81a3efb-py3-none-any.whl
+dist/quantum_linear_solvers-0.1.dev2+g81a3efb.tar.gz
 linear_solvers/__init__.py
 linear_solvers/hhl.py
 linear_solvers/linear_solver.py
@@ -46,4 +48,7 @@ quantum_linear_solvers.egg-info/SOURCES.txt
 quantum_linear_solvers.egg-info/dependency_links.txt
 quantum_linear_solvers.egg-info/requires.txt
 quantum_linear_solvers.egg-info/top_level.txt
+test/__init__.py
 test/test_linear_solvers.py
+test/__pycache__/__init__.cpython-38.pyc
+test/__pycache__/test_linear_solvers.cpython-38.pyc

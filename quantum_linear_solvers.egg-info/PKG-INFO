@@ -1,8 +1,18 @@
 Metadata-Version: 2.1
 Name: quantum-linear-solvers
-Version: 0.1.dev2+g81a3efb
+Version: 0.0.1
 Summary: Quantum linear solvers package
 License-File: LICENSE
 
-# quantum_linear_solvers
+# Quantum linear solvers
 Contains classical and quantum algorithms to solve systems of linear equations such as the HHL algorithm.
+
+## Installation
+```python
+git clone https://github.com/anedumla/quantum_linear_solvers.git
+cd quantum_linear_solvers
+pip install .
+```
+
+## Documentation
+Tutorial: https://qiskit.org/textbook/ch-applications/hhl_tutorial.html
