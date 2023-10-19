@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 name = "quantum_linear_solvers"
-version = "0.1.0"
+version = "0.1.1"
 description = (
     "Quantum linear solvers package for qiskit"
 )
