@@ -19,7 +19,6 @@ setup(
     long_description=long_description,
     install_requires=install_requires,
     packages=find_packages(),
-    setup_requires=["setuptools_scm"],
     use_scm_version=True,
     include_package_data=True,
     license="Apache License 2.0",
