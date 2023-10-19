@@ -9,4 +9,4 @@ pip install .
 ```
 
 ## Documentation
-Tutorial: https://qiskit.org/textbook/ch-applications/hhl_tutorial.html
+Tutorial: https://learn.qiskit.org/course/ch-applications/solving-linear-systems-of-equations-using-hhl-and-its-qiskit-implementation

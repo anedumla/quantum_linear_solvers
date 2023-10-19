@@ -1,7 +1,0 @@
-importlib_metadata
-mapomatic==0.6
-mthree==0.24
-pylatexenc
-qiskit-aer
-qiskit-ibmq-provider
-qiskit-terra>=0.21
